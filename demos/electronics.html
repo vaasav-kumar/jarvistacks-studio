@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <include src="partials/head.html"></include>
+    <title>Techvolt Gadget Store · JarviStacks Demo</title>
+    <meta name="description" content="Techvolt Gadget Store — a sample website crafted by JarviStacks Studio." />
+  </head>
+  <body class="bg-surface font-body-md text-on-surface antialiased flex flex-col min-h-screen selection:bg-secondary-container selection:text-on-secondary-fixed">
+    <header class="fixed top-0 w-full z-50 bg-surface/90 backdrop-blur-xl shadow-[0_2px_12px_rgba(19,27,46,0.06)] pt-safe">
+      <div class="page-shell h-16 flex items-center justify-between gap-space-sm">
+        <div class="flex items-center gap-space-xs min-w-0">
+          <a href="/samples.html" aria-label="Back to Showcase" class="h-11 px-space-xs flex items-center gap-1 text-on-surface rounded-full hover:bg-surface-container-high transition-colors shrink-0">
+            <span class="material-symbols-outlined text-[20px]">arrow_back</span>
+            <span class="font-label-md text-label-md hidden sm:inline text-on-surface-variant font-medium">Showcase</span>
+          </a>
+          <div class="flex items-center gap-space-xs min-w-0 pl-1">
+            <div class="w-2 h-2 rounded-full bg-secondary-container shrink-0 shadow-[0_0_6px_#fed01b]"></div>
+            <h1 class="font-headline-sm text-headline-sm text-on-surface tracking-tight truncate min-w-0">Techvolt Gadget Store</h1>
+          </div>
+        </div>
+        <a href="/contact.html#quote" class="h-9 px-space-md rounded-full bg-primary text-on-primary font-label-md text-label-md flex items-center justify-center gap-1 shadow-[2px_2px_0px_0px_#131b2e] active:translate-x-0.5 active:translate-y-0.5 transition-transform whitespace-nowrap shrink-0">
+          <span class="material-symbols-outlined text-[16px]">auto_awesome</span>
+          <span>Get a Site</span>
+        </a>
+      </div>
+    </header>
+    <main class="flex-1 w-full bg-surface pt-16 pb-safe">
+      <div class="w-full">
+<div class="flex flex-col w-full pb-10">
+<!-- Live Flash Sale Ticker -->
+<div class="w-full bg-secondary-container text-on-secondary-fixed py-2 px-margin-sm shadow-sm flex items-center justify-between overflow-hidden">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="material-symbols-outlined text-[18px] animate-pulse text-primary shrink-0" style="font-variation-settings: 'FILL' 1;">bolt</span>
+<p class="font-label-md text-label-md truncate tracking-tight">
+        Flash Sale Ends in <span class="font-bold underline decoration-wavy" id="countdown">04:31:52</span> <span class="hidden xs:inline">• Free Express Delivery across India</span>
+</p>
+</div>
+<span class="font-label-md text-label-md bg-on-secondary-fixed text-secondary-fixed px-2 py-0.5 rounded-full shrink-0">44% OFF</span>
+</div>
+<!-- Hero Showcase: VoltPods Pro Max 2 -->
+<div class="px-margin-sm pt-space-md" id="voltpods">
+<div class="relative bg-surface-container rounded-xl overflow-hidden shadow-lg p-margin-sm">
+<!-- Decorative Studio Hand-drawn Stamp Badge -->
+<div class="absolute -top-1 -right-1 z-10 rotate-6 bg-primary text-on-primary font-headline-sm text-label-md px-3 py-1 rounded-full shadow-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span>
+<span>LAB CHOICE #1</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-2">
+<span class="bg-surface text-primary font-label-md text-label-md px-2.5 py-0.5 rounded-full shadow-sm flex items-center gap-1">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-ping"></span>
+            TechVolt Audio Lab
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Flagship Release</span>
+</div>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface font-bold tracking-tight">
+          VoltPods Pro Max 2
+        </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Dual Hybrid Active Noise Cancellation up to 48dB with bespoke 12.4mm Beryllium dynamic acoustic drivers.
+        </p>
+<!-- Product Image Preview with High-Tech Overlay -->
+<div class="relative w-full h-56 rounded-lg overflow-hidden bg-surface shadow-inner my-space-xs flex items-center justify-center">
+<img class="w-full h-full object-cover" alt="Matte obsidian black wireless earbuds in open dynamic charging case with neon indigo LED battery indicator strip, studio commercial shot with crisp metallic edges and acoustic chamber visible, tech enthusiast minimal staging on light slate" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpVF-nOfyMtgfEL5dW_mz3qnno0Yb0n9vHlnXtiDmjsFAWCeHQaJ9NY7E8xa5Amn2wQq4yhV6w46jTDrMerZBop0W_KbmHWnrab35K5P1KyQJ-7GmxrTkwdLniRw7cmXF-qNoPkCs4UkSQXFT4YDw8wSIjCRlkAPPkspD8PDRSZIUN78er4mtjoKeIpIOkteRL0jKEwrgp79UPVgmt80a2RldPQal6B6kBtdFcKU8"/>
+<div class="absolute bottom-2 left-2 bg-inverse-surface/85 backdrop-blur-md text-inverse-on-surface px-2.5 py-1 rounded-lg text-label-md font-label-md flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">graphic_eq</span>
+<span>48dB Hybrid ANC</span>
+</div>
+<div class="absolute top-2 left-2 bg-surface-container-highest/90 text-on-surface px-2 py-0.5 rounded-md font-label-md text-label-md">
+            Spatial 360°
+          </div>
+</div>
+<!-- Spec Highlights Grid -->
+<div class="grid grid-cols-3 gap-2 bg-surface-container-low p-2.5 rounded-lg">
+<div class="text-center">
+<span class="font-headline-sm text-headline-sm text-primary block">48 Hrs</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Total Playback</span>
+</div>
+<div class="text-center border-x-0 bg-surface-container-lowest/60 rounded-md py-0.5">
+<span class="font-headline-sm text-headline-sm text-primary block">24ms</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Ultra Latency</span>
+</div>
+<div class="text-center">
+<span class="font-headline-sm text-headline-sm text-primary block">12.4mm</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Driver Core</span>
+</div>
+</div>
+<!-- Pricing & Action Row -->
+<div class="flex items-center justify-between pt-space-xs">
+<div>
+<div class="flex items-baseline gap-2">
+<span class="font-price-display text-price-display text-on-surface font-bold">₹4,999</span>
+<span class="font-body-md text-body-md line-through text-outline">₹8,999</span>
+</div>
+<span class="font-label-md text-label-md text-secondary font-semibold">You Save ₹4,000 (44% OFF)</span>
+</div>
+<button class="bg-primary text-on-primary h-12 px-5 rounded-lg font-label-lg text-label-lg shadow-md hover:bg-primary-container active:scale-95 transition-all flex items-center gap-2" type="button" onclick="orderItem('VoltPods Pro Max 2')">
+<span class="material-symbols-outlined text-[18px]">shopping_cart_checkout</span>
+<span>Buy Now</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Interactive Categories Horizontal Scroll -->
+<div class="pt-space-lg">
+<div class="px-margin-sm flex items-center justify-between mb-space-xs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Explore Hardware Lab</h3>
+<span class="font-label-md text-label-md text-primary font-semibold flex items-center">
+        All Gear <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</span>
+</div>
+<div class="flex gap-2 overflow-x-auto px-margin-sm pb-2 scrollbar-none items-center">
+<button class="bg-primary text-on-primary px-4 py-2 rounded-full font-label-md text-label-md shadow-sm shrink-0 flex items-center gap-1.5" type="button" data-gear-chip onclick="pickGear(this, 'earbuds')">
+<span class="material-symbols-outlined text-[16px]">headphones</span>
+        Wireless Earbuds
+      </button>
+<button class="bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-label-md text-label-md shrink-0 active:bg-surface-variant transition-colors flex items-center gap-1.5" type="button" data-gear-chip onclick="pickGear(this, 'watch')">
+<span class="material-symbols-outlined text-[16px]">watch</span>
+        Smartwatches
+      </button>
+<button class="bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-label-md text-label-md shrink-0 active:bg-surface-variant transition-colors flex items-center gap-1.5" type="button" data-gear-chip onclick="pickGear(this, 'charger')">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+        GaN Fast Chargers
+      </button>
+<button class="bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-label-md text-label-md shrink-0 active:bg-surface-variant transition-colors flex items-center gap-1.5" type="button" data-gear-chip onclick="pickGear(this, 'keyboard')">
+<span class="material-symbols-outlined text-[16px]">keyboard</span>
+        Mechanical Keyboards
+      </button>
+<button class="bg-surface-container-high text-on-surface px-4 py-2 rounded-full font-label-md text-label-md shrink-0 active:bg-surface-variant transition-colors flex items-center gap-1.5" type="button" data-gear-chip onclick="pickGear(this, 'drones')">
+<span class="material-symbols-outlined text-[16px]">videocam</span>
+        Drones &amp; Action Cams
+      </button>
+</div>
+</div>
+<!-- Featured Specs-Driven Catalog -->
+<div class="px-margin-sm pt-space-lg grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-space-md" id="gear-catalog">
+<div class="flex items-center justify-between lg:col-span-2 xl:col-span-3">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Tested &amp; Calibrated Units</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Factory certified with 1-Year Pan-India Replacement</p>
+</div>
+<div class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary-fixed flex items-center justify-center font-bold text-label-md shadow-sm">
+        3+
+      </div>
+</div>
+<!-- Product Card 1: Apex Ultra Smartwatch -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-3 relative" data-gear="watch">
+<div class="flex gap-3">
+<div class="w-28 h-28 rounded-lg overflow-hidden shrink-0 bg-surface-container-low shadow-inner">
+<img class="w-full h-full object-cover" alt="Futuristic rugged titanium smartwatch with circular AMOLED always-on neon orange digital dial, high resolution macro photograph on polished ceramic surface with glowing interface and water droplets" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_2nTYacsM6CV7zsMuVeoCSn0Wdroc6tr-alry0WfppxEi95q_uF2K17ejALCxtBXDK4hYMiYXIT9w7KOtVvgY263Mgirw31kmijK3BhVmiRV2hcqaQtsdWihCkSQT4A2inXzorpF3rtwxptEbLkSsvparHxKBcSLbxfy_A1ZAwCLQip1ejYJoZU9WDJQeQCXukS_L0J6Ruepv4Y3Vy35NxpOAMeqtmnOhybJJnpw"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="bg-surface-variant text-on-surface-variant font-label-md text-label-md px-2 py-0.5 rounded">Wearable Lab</span>
+<span class="text-secondary font-label-md text-label-md font-bold flex items-center">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.9
+            </span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">Apex Ultra Smartwatch</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">1.96" Super AMOLED, 800 Nits, Dual Chip</p>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-price-display text-headline-sm text-on-surface font-bold">₹3,499</span>
+<span class="font-body-sm text-body-sm line-through text-outline">₹6,999</span>
+</div>
+</div>
+</div>
+<!-- Spec Badges Cluster -->
+<div class="flex flex-wrap gap-1.5">
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">touch_app</span> 60Hz AMOLED
+        </span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">call</span> BT Calling v5.3
+        </span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">water_drop</span> 5ATM Rugged
+        </span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<button class="bg-surface-container-high hover:bg-surface-variant text-on-surface py-2.5 rounded-lg font-label-md text-label-md flex items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" onclick="toggleCompare('Apex Ultra Smartwatch', '12 Days Battery', '1.96 AMOLED', '18ms Sync')">
+<span class="material-symbols-outlined text-[16px]">compare_arrows</span>
+<span>Compare Specs</span>
+</button>
+<a class="bg-primary text-on-primary py-2.5 rounded-lg font-label-md text-label-md flex items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" href="https://wa.me/918610546126">
+<span class="material-symbols-outlined text-[16px]">chat</span>
+<span>Instant WhatsApp</span>
+</a>
+</div>
+</div>
+<!-- Product Card 2: 65W GaN Dual-Port Turbo Charger -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-3 relative" data-gear="charger">
+<div class="flex gap-3">
+<div class="w-28 h-28 rounded-lg overflow-hidden shrink-0 bg-surface-container-low shadow-inner">
+<img class="w-full h-full object-cover" alt="Compact white and semi-transparent gallium nitride fast wall charger with dual USB-C ports glowing soft cyan light, sleek hyper-modern aesthetic, technical cutaway view aesthetic on minimal desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDDl8WvSPCP93GgMlZ20gCOCNit869Fht-wbORu4q66C3Qp13scOBwrKsJpTzuM-xM6qbdGJ6uUQvk1-YESMYR6W38pVSmOePiHOmXulh9ysZS2-ytCAhW-xKFKxegzPYVWRUvZzRGPXluTf7S7NhngtvhuBLUYwix9XHgWVen1ShgXFI9jrkihmCfARvjtgDWoLhhZ1bAAutL7nWtsUj7SW4AzQPjGmNyiA4BVNJo"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="bg-surface-variant text-on-surface-variant font-label-md text-label-md px-2 py-0.5 rounded">Power Delivery</span>
+<span class="text-secondary font-label-md text-label-md font-bold flex items-center">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.8
+            </span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">65W GaN Turbo Charger</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Dual Type-C PD 3.0 + PPS Tech</p>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-price-display text-headline-sm text-on-surface font-bold">₹1,299</span>
+<span class="font-body-sm text-body-sm line-through text-outline">₹2,499</span>
+</div>
+</div>
+</div>
+<!-- Spec Badges Cluster -->
+<div class="flex flex-wrap gap-1.5">
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">laptop_mac</span> Mac &amp; PC Ready
+        </span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">thermostat</span> Smart Thermal AI
+        </span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">speed</span> 0 to 60% in 28m
+        </span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<button class="bg-surface-container-high hover:bg-surface-variant text-on-surface py-2.5 rounded-lg font-label-md text-label-md flex items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" onclick="toggleCompare('65W GaN Charger', 'Continuous Power', 'GaN V IC', 'Universal PPS')">
+<span class="material-symbols-outlined text-[16px]">compare_arrows</span>
+<span>Compare Specs</span>
+</button>
+<button class="bg-primary text-on-primary py-2.5 rounded-lg font-label-md text-label-md flex items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" type="button" onclick="orderItem('65W GaN Turbo Charger')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span>Add to Cart</span>
+</button>
+</div>
+</div>
+<!-- Product Card 3: StrikeRGB Mechanical Keyboard -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-md flex flex-col gap-3 relative" data-gear="keyboard">
+<div class="flex gap-3">
+<div class="w-28 h-28 rounded-lg overflow-hidden shrink-0 bg-surface-container-low shadow-inner">
+<img class="w-full h-full object-cover" alt="Compact mechanical gaming keyboard with 75% layout, custom dye-sub PBT keycaps with crisp retro legends, per-key RGB backlighting glowing across aluminum top plate, professional esports photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwhOXf0i79HwXetbX6GEesoKIjwX7RuvRxh54JetdQtSojTKBNu1w-y7PqaARjccos0v_5cLLl3e50zHWf1NjvMxkKHaWKnLvD4wtHzs3BFAiyQuDFtL3OBdjZd2a_gFKyNzYrwz0tOKxDF5QIwslGN2XvxTjV-ChN1wCj6DHcWdGzGaFrFk3qGjMIL4e0JhkFaoA_UK1uu8RlceJqxzewcf-C-25gcaKlutW_HOY"/>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="bg-surface-variant text-on-surface-variant font-label-md text-label-md px-2 py-0.5 rounded">Pro Esport</span>
+<span class="text-secondary font-label-md text-label-md font-bold flex items-center">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.95
+            </span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold truncate">StrikeRGB 75% Keyboard</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Hot-Swappable Linear Red Switches</p>
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-price-display text-headline-sm text-on-surface font-bold">₹2,799</span>
+<span class="font-body-sm text-body-sm line-through text-outline">₹4,999</span>
+</div>
+</div>
+</div>
+<!-- Spec Badges Cluster -->
+<div class="flex flex-wrap gap-1.5">
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">tune</span> Pre-lubed Switches
+        </span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">layers</span> Gasket Mounted
+        </span>
+<span class="bg-surface-container-high text-on-surface font-label-md text-label-md px-2.5 py-1 rounded-md flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">wifi</span> Tri-Mode Wireless
+        </span>
+</div>
+<!-- Action Buttons -->
+<div class="grid grid-cols-2 gap-2 pt-1">
+<button class="bg-surface-container-high hover:bg-surface-variant text-on-surface py-2.5 rounded-lg font-label-md text-label-md flex items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" onclick="toggleCompare('StrikeRGB Keyboard', '4000mAh Battery', 'Gateron Red', '1000Hz Polling')">
+<span class="material-symbols-outlined text-[16px]">compare_arrows</span>
+<span>Compare Specs</span>
+</button>
+<button class="bg-primary text-on-primary py-2.5 rounded-lg font-label-md text-label-md flex items-center justify-center gap-1 shadow-sm active:scale-95 transition-transform" type="button" onclick="orderItem('StrikeRGB 75% Keyboard')">
+<span class="material-symbols-outlined text-[16px]">add_shopping_cart</span>
+<span>Add to Cart</span>
+</button>
+</div>
+</div>
+<p class="hidden lg:col-span-2 xl:col-span-3 rounded-xl bg-surface-container-low p-space-md font-body-sm text-body-sm text-on-surface" id="gear-empty">Drones and action cams are on the next lab drop. Ask TechVolt on WhatsApp and they will hold one for you.</p>
+</div>
+<div class="px-margin-sm pt-space-xl">
+<div class="bg-surface-container-high rounded-xl p-space-md shadow-md">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[22px]">analytics</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Acoustic &amp; Lab Matrix</h3>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant bg-surface px-2 py-0.5 rounded-full">Live Test Data</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+        Direct lab-tested performance benchmark comparing VoltPods Pro Max 2 with industry standard baseline earphones.
+      </p>
+<!-- Side-by-side Table -->
+<div class="bg-surface rounded-lg overflow-hidden shadow-sm">
+<div class="grid grid-cols-3 bg-surface-container-highest p-2.5 font-label-md text-label-md text-on-surface font-bold text-center">
+<div class="text-left pl-1">Metrics</div>
+<div class="text-primary font-bold">VoltPods Max 2</div>
+<div class="text-on-surface-variant">Generic Rival</div>
+</div>
+<!-- Metric 1: Battery -->
+<div class="grid grid-cols-3 p-3 text-center items-center bg-surface-container-lowest">
+<div class="text-left font-body-sm text-body-sm font-semibold text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">battery_charging_full</span> Battery Life
+          </div>
+<div class="font-headline-sm text-label-lg text-primary font-bold">48 hrs total</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">24-28 hrs</div>
+</div>
+<!-- Metric 2: Driver -->
+<div class="grid grid-cols-3 p-3 text-center items-center bg-surface-container-low">
+<div class="text-left font-body-sm text-body-sm font-semibold text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">speaker</span> Driver Diaphragm
+          </div>
+<div class="font-headline-sm text-label-lg text-primary font-bold">12.4mm Beryllium</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">10mm Plastic</div>
+</div>
+<!-- Metric 3: Latency -->
+<div class="grid grid-cols-3 p-3 text-center items-center bg-surface-container-lowest">
+<div class="text-left font-body-sm text-body-sm font-semibold text-on-surface flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-primary">timer</span> Gaming Latency
+          </div>
+<div class="font-headline-sm text-label-lg text-primary font-bold">24 ms</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">120 ms</div>
+</div>
+</div>
+<!-- Quick interactive toggle status -->
+<div class="mt-3 hidden bg-secondary-container text-on-secondary-fixed p-2.5 rounded-lg text-center font-label-md text-label-md transition-all" id="comparisonNotification">
+        Comparing <span class="font-bold" id="compTarget"></span> against lab standards!
+      </div>
+</div>
+</div>
+<!-- Verified Buyer Reviews & Unboxing Feed -->
+<div class="px-margin-sm pt-space-xl">
+<div class="flex items-center justify-between mb-space-xs">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Verified Audio Lab Unboxings</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Real customer setups across Bengaluru, Mumbai &amp; Delhi</p>
+</div>
+<div class="flex items-center gap-1 bg-surface-container-high px-2 py-1 rounded-md">
+<span class="material-symbols-outlined text-secondary text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">4.92/5</span>
+</div>
+</div>
+<!-- Review Cards Slider / Stack -->
+<div class="flex flex-col gap-3 mt-space-xs">
+<!-- Review 1 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-primary-fixed flex items-center justify-center font-bold text-primary text-label-md">
+              RK
+            </div>
+<div>
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">Rohan Kulkarni</h5>
+<div class="flex items-center gap-1 text-on-surface-variant font-body-sm text-label-md">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span> Verified Tech Reviewer • Bengaluru
+              </div>
+</div>
+</div>
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface mb-3">
+          "The VoltPods 2 noise cancellation legitimately silences my metro commute on Purple Line. Soundstage is punchy without distorting high-mids. Shipped in 24 hours to Indiranagar."
+        </p>
+<!-- Unboxing Photo Preview -->
+<div class="grid grid-cols-2 gap-2">
+<div class="h-28 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" alt="Customer smartphone photo holding VoltPods Pro Max 2 premium retail packaging box with unboxed earphones on wooden workspace beside a mechanical keyboard, natural sunlight warm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAePKKxF3tXGjBME7YaRuf2fboErkCmBDbjQ6FvTO3EPsU4-gFEee9SLEauW8LUADn0NIvIV0vjQOt5XqiyTR0T0_2wjr5bIoASG89LKaLXA9FxuA1oO6EUNd_ExuHwjMaH44gXthdHw8i91aQmFOMCvSfvZU-wg1Lp5mNJS2w98xS8f27paIePg-7V6n8ihLkq0yE_pocAfRXUqm8SHSz0pPA6yg1aKZP0oIKaO1k"/>
+</div>
+<div class="h-28 rounded-lg overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" alt="Close up unboxing macro shot of matte black earphones inside charging case displaying glowing green battery status LED indicators on desk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA183tERFMbEnO0gQdgmj3EoJFdMgObKk9HDv0-g6dxdk3f4fQ3S_9pz8ikVsMHozP5CzUzG6hzpQ9XQBbvJMT9M_75KYX2S1CwATeL5F0m18g6IrzcvAVUso1gJ5Il8lz8gqQL6WupsayF3cA6zxy6vO41jlyaa9jJk4SOAMeYA5fiZ564gUg6ows5UuBNiotHNelr9CNGK0jTav_vbP4a1Mq4NRE6G0zUILDxmgM"/>
+</div>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed flex items-center justify-center font-bold text-on-secondary-fixed text-label-md">
+              AS
+            </div>
+<div>
+<h5 class="font-label-lg text-label-lg text-on-surface font-bold">Ananya Sharma</h5>
+<div class="flex items-center gap-1 text-on-surface-variant font-body-sm text-label-md">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span> Graphic Designer • Mumbai
+              </div>
+</div>
+</div>
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[16px]" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface">
+          "The 65W GaN charger replaced both my heavy MacBook brick and iPhone adapter. Zero overheating even while rendering 4K video exports."
+        </p>
+</div>
+</div>
+</div>
+<!-- WhatsApp Instant Price Negotiation & Bulk Ordering CTA Card -->
+<div class="px-margin-sm pt-space-xl">
+<div class="relative bg-gradient-to-br from-surface-container-highest via-surface-container to-surface-variant rounded-xl p-space-md shadow-lg overflow-hidden">
+<!-- Decorative Doodle Vector Stamp -->
+<div class="absolute -right-4 -bottom-4 opacity-10 text-on-surface pointer-events-none">
+<span class="material-symbols-outlined text-[140px]">forum</span>
+</div>
+<div class="relative z-10 flex flex-col gap-2">
+<div class="inline-flex items-center gap-1.5 bg-secondary-container text-on-secondary-fixed px-3 py-1 rounded-full text-label-md font-label-md w-fit shadow-sm">
+<span class="material-symbols-outlined text-[16px]">price_change</span>
+<span>B2B &amp; Direct Counter-Offers</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">
+          Want a Custom Combo or Corporate Bulk Deal?
+        </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Chat directly with TechVolt Lab engineers on WhatsApp. Negotiate instant bundle pricing for office pods, studio gifts, or multi-gadget carts.
+        </p>
+<div class="pt-2">
+<a class="w-full bg-[#128C7E] text-white py-3.5 px-space-md rounded-lg font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-md active:scale-98 transition-transform" href="https://wa.me/918610546126">
+<span class="material-symbols-outlined text-[20px]">chat</span>
+<span>1-Click WhatsApp Instant Negotiation</span>
+</a>
+<p class="text-center font-label-md text-label-md text-on-surface-variant mt-2 flex items-center justify-center gap-1">
+<span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
+            Avg reply time: Under 90 seconds
+          </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Studio Bottom Banner (Bespoke D2C Web Service Promotion) -->
+<div class="px-margin-sm pt-space-xl">
+<div class="relative bg-inverse-surface text-inverse-on-surface rounded-xl p-space-md shadow-xl overflow-hidden">
+<!-- Studio Accents -->
+<div class="absolute top-0 right-0 transform translate-x-4 -translate-y-4 w-28 h-28 bg-primary/20 rounded-full blur-2xl"></div>
+<div class="relative z-10 flex flex-col gap-2">
+<div class="flex items-center gap-2">
+<span class="bg-secondary-container text-on-secondary-fixed font-label-md text-label-md px-2.5 py-0.5 rounded-full font-bold">
+            JarviStacks Studio
+          </span>
+<span class="text-outline-variant font-label-md text-label-md">Web &amp; Commerce</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-inverse-on-surface font-bold">
+          Running an electronics, creator brand, or D2C store?
+        </h4>
+<p class="font-body-sm text-body-sm text-outline-variant">
+          Get a lightning-fast, high-converting catalog website tailored for mobile shoppers in India. Turn raw specs into irresistible sales.
+        </p>
+<!-- Pricing Tag & Callout -->
+<div class="flex items-center justify-between bg-surface-container/10 p-3 rounded-lg mt-1">
+<div>
+<span class="font-label-md text-label-md text-outline-variant block">Turnkey Catalog Deploy</span>
+<span class="font-price-display text-headline-sm text-secondary-fixed font-bold">from ₹8,000</span>
+</div>
+<a class="bg-secondary-container text-on-secondary-fixed hover:bg-secondary-fixed px-4 py-2.5 rounded-lg font-label-md text-label-md font-bold shadow-md flex items-center gap-1 active:scale-95 transition-transform" href="/contact.html#quote">
+<span>Launch Your Store</span>
+<span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Micro Footer Brand Watermark -->
+<div class="text-center pt-space-lg px-margin-sm">
+<div class="flex items-center justify-center gap-1.5 text-on-surface-variant font-label-md text-label-md">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+<span>TechVolt Gadget Store &amp; Audio Lab • Authorized Distributor</span>
+</div>
+<p class="font-body-sm text-label-md text-outline mt-1">
+      All products backed by 12 Months Official Manufacturer Warranty • GST Invoice Available
+    </p>
+</div>
+</div>
+<!-- Client-side Micro Interactions -->
+<script>
+  // Countdown Timer Simulation
+  (function initTicker() {
+    let hours = 4, minutes = 31, seconds = 52;
+    const el = document.getElementById('countdown');
+    if (!el) return;
+    setInterval(() => {
+      if (seconds > 0) {
+        seconds--;
+      } else {
+        seconds = 59;
+        if (minutes > 0) {
+          minutes--;
+        } else {
+          minutes = 59;
+          if (hours > 0) hours--;
+        }
+      }
+      const pad = (n) => (n < 10 ? '0' + n : n);
+      el.textContent = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+    }, 1000);
+  })();
+
+  // Dynamic Comparison Matrix Highlight
+  function orderItem(name) {
+    const text = encodeURIComponent('Hi TechVolt, I want to order ' + name + '.');
+    window.open('https://wa.me/918610546126?text=' + text, '_blank', 'noopener');
+  }
+
+  function pickGear(btn, gear) {
+    document.querySelectorAll('[data-gear-chip]').forEach((chip) => {
+      chip.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+      chip.classList.add('bg-surface-container-high', 'text-on-surface');
+    });
+    btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+    btn.classList.remove('bg-surface-container-high', 'text-on-surface');
+
+    const cards = document.querySelectorAll('[data-gear]');
+    const empty = document.getElementById('gear-empty');
+    if (gear === 'earbuds') {
+      cards.forEach((card) => card.classList.remove('hidden'));
+      if (empty) empty.classList.add('hidden');
+      document.getElementById('voltpods')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      return;
+    }
+    let shown = 0;
+    cards.forEach((card) => {
+      const match = card.dataset.gear === gear;
+      card.classList.toggle('hidden', !match);
+      if (match) shown += 1;
+    });
+    if (empty) empty.classList.toggle('hidden', shown > 0);
+  }
+
+  function toggleCompare(name, specA, specB, specC) {
+    const notify = document.getElementById('comparisonNotification');
+    const target = document.getElementById('compTarget');
+    if (notify && target) {
+      target.textContent = name;
+      notify.classList.remove('hidden');
+      notify.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      setTimeout(() => {
+        notify.classList.add('hidden');
+      }, 5000);
+    }
+  }
+</script>
+      </div>
+    </main>
+  </body>
+</html>
